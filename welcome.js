@@ -10,7 +10,7 @@ setTimeout(function () {
 			if (PKAE.isMobile) {
 				change -= 15;
 				body_str = '提示:<br/>请确保您的设备不处于静音模式。 您可能需要实际翻转无声开关。 '+
-				'<img src="phone-switch.jpg" style="max-width:224px;max-height:126px;width:40%;margin: 10px auto; display: block;"/>'+
+				'<img src="./phone-switch.jpg" style="max-width:224px;max-height:126px;width:40%;margin: 10px auto; display: block;"/>'+
 				'<br/><br/>';
 			}
 			else {
