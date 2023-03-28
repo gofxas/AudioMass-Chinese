@@ -1280,14 +1280,14 @@
 				var render_tags = function ( el, tags ) {
 					var str = '<div style="margin-top:18px">';
 
-					str += '<div><span class="pk_id3ttl">Artist</span><span>' + (tags.artist || '-') + '</span></div>';
-					str += '<div><span class="pk_id3ttl">Title</span><span>' + (tags.title || '-') + '</span></div>';
-					str += '<div><span class="pk_id3ttl">Album</span><span>' + (tags.album || '-') + '</span></div>';
-					str += '<div><span class="pk_id3ttl">Year</span><span>' + (tags.year || '-') + '</span></div>';
-					str += '<div><span class="pk_id3ttl">Genre</span><span>' + (tags.genre || '-') + '</span></div>';
-					str += '<div style="max-width:700px"><span class="pk_id3ttl">Comment</span><span>' + ((tags.comment||{}).text || '-') + '</span></div>';
-					str += '<div><span class="pk_id3ttl">Track</span><span>' + (tags.track || '-') + '</span></div>';
-					str += '<div style="max-width:700px"><span class="pk_id3ttl">Lyrics</span><span>' + ((tags.lyrics||{}).lyrics || '-') + '</span></div>';
+					str += '<div><span class="pk_id3ttl">艺术家</span><span>' + (tags.artist || '-') + '</span></div>';
+					str += '<div><span class="pk_id3ttl">标题</span><span>' + (tags.title || '-') + '</span></div>';
+					str += '<div><span class="pk_id3ttl">专辑</span><span>' + (tags.album || '-') + '</span></div>';
+					str += '<div><span class="pk_id3ttl">年</span><span>' + (tags.year || '-') + '</span></div>';
+					str += '<div><span class="pk_id3ttl">类型</span><span>' + (tags.genre || '-') + '</span></div>';
+					str += '<div style="max-width:700px"><span class="pk_id3ttl">评论</span><span>' + ((tags.comment||{}).text || '-') + '</span></div>';
+					str += '<div><span class="pk_id3ttl">音轨</span><span>' + (tags.track || '-') + '</span></div>';
+					str += '<div style="max-width:700px"><span class="pk_id3ttl">歌词</span><span>' + ((tags.lyrics||{}).lyrics || '-') + '</span></div>';
 
 					if ('picture' in tags)
 					{
