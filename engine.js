@@ -67,7 +67,7 @@
 						},
 						buttons:[
 							{
-								title:'打开一个新的',
+								title:'打开新文件',
 								callback: function( q ) {
 									wavesurfer.backend._add = 0;
 									func ();
@@ -184,7 +184,7 @@
 										},
 										buttons:[
 											{
-												title:'打开一个新的',
+												title:'打开新文件',
 												callback: function( q ) {
 													wavesurfer.backend._add = 0;
 													func ();

@@ -802,7 +802,7 @@
 														}
 													},
 													{
-														title:'打开一个新的',
+														title:'新窗口打开',
 														clss:'pk_modal_a_accpt',
 														callback: function( q ) {
 															window.open (window.location.pathname + '?local=' + name);
